@@ -5,7 +5,7 @@ function CardFactsStart({Fact}) {
 
 
     return (
-        <div className="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+        <div className="col-lg-4 zoomIn" data-wow-delay="0.1s">
             <div className={Fact.colorFond} style={{ height: "150px" }}>
                 <div className="bg-white d-flex align-items-center justify-content-center rounded mb-2" style={{ height: "60px", width: "60px" }}>
                     <i className={Fact.colorIcon}></i>

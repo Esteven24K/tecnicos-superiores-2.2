@@ -5,7 +5,7 @@ function CardChoose({ choose }) {
 
     return (
 
-        <div className="col-12 wow zoomIn" data-wow-delay="0.2s">
+        <div className="col-12 zoomIn" data-wow-delay="0.1s">
             <div className="bg-success rounded d-flex align-items-center justify-content-center mb-3" style={{ width: "60px", height: "60px" }}>
                 <i className={choose.icono}></i>
             </div>

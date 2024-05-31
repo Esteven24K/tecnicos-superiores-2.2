@@ -10,7 +10,7 @@ function QuoteServices() {
 
 
     return (
-        <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container-fluid py-5 fadeInUp" data-wow-delay="0.1s">
             <div className="container py-5">
                 <div className="row g-5">
                     <div className="col-lg-7">
@@ -19,15 +19,15 @@ function QuoteServices() {
                             <h1 className="mb-0">¿Necesita una cotización gratis? Siéntete libre de contactarnos</h1>
                         </div>
                         <div className="row gx-3">
-                            <div className="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                            <div className="col-sm-6 zoomIn" data-wow-delay="0.2s">
                                 <h5 className="mb-4"><i className="fa fa-reply text-success me-3"></i>Responderemos dentro de las 24 horas</h5>
                             </div>
-                            <div className="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                            <div className="col-sm-6 zoomIn" data-wow-delay="0.4s">
                                 <h5 className="mb-4"><i className="fa fa-phone-alt text-success me-3"></i>Asistencia telefónica las 24 horas</h5>
                             </div>
                         </div>
                         <p className="mb-4"></p>
-                        <div className="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                        <div className="d-flex align-items-center mt-2 zoomIn" data-wow-delay="0.6s">
                             <div className="bg-success d-flex align-items-center justify-content-center rounded" style={{ height: "60px", width: "60px" }}>
                                 <i className="fa fa-phone-alt text-white"></i>
                             </div>
@@ -38,7 +38,7 @@ function QuoteServices() {
                         </div>
                     </div>
                     <div className="col-lg-5">
-                        <div className="bg-success rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
+                        <div className="bg-success rounded h-100 d-flex align-items-center p-5 zoomIn" data-wow-delay="0.9s">
                             <form>
                                 <div className="row g-3">
                                     <div className="col-xl-12">

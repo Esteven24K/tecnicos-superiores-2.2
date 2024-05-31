@@ -5,7 +5,7 @@ function CardOurService({ service }) {
 
     return (
 
-        <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
+        <div className="col-lg-4 col-md-6 zoomIn" data-wow-delay="0.1s">
         <div className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
             <div className="service-icon">
                 <i className={service.icono}></i>

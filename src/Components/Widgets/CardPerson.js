@@ -5,7 +5,7 @@ function CardPerson({ persons }) {
 
     return (
 
-        <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+        <div className="col-lg-4" data-wow-delay="0.1s">
             <div className="team-item bg-light rounded overflow-hidden">
                 <div className="team-img position-relative overflow-hidden">
                     <img className="img-fluid w-100" src={persons.Img} alt="" />
